@@ -1,0 +1,15 @@
+ - Para iniciar o projeto é necessário ter o Node instalado preferencialmente versões LTS.
+ - Após instalar o node pode-se rodar o comando 'npm create vite@latest' para iniciar o projeto, colocar o 
+ nome do projeto > React > TypeScript, depois entrar na pasta 'cd "Pasta do projeto"' e instalar as dependências
+ com o comando 'npm install'.
+ - O conceito mais importante do React são componentes, componentes nada mais são que funções em que a primeira letra é
+ maiúscula e essa função devolve HTML, só que quando o HTML está dentro de um arquivo JavaScript/TypeScript 
+ chamamos de JSX/TSX, React nada mais é do que JS/TS convertido por debaixo dos panos.
+ - Instalar a biblioteca TailWind CSS(https://tailwindcss.com/docs/installationc) para instalar rodar o comando 
+ 'npm install -D tailwindcss postcss autoprefixer' para iniciar o tailwindcss no projeto 'npx tailwindcss init -p'
+ - Instalar o radix UI para fazer a parte de criação dos modais para instalar o componentes que queremos 'npm install @radix-ui/react-dialog'
+ - Instalar biblioteca date-fns com 'npm install date-fns' para transcerver a data da forma correta.
+ - Instalar o pacote de ícones lucide-react com 'npm install lucide-react'.
+ - Dica de Clean Code, toda variável `booleana deve responder uma pergunta, exemplo: criamos uma variável que o objetivo dela é mostrar algo na tela portanto
+ o nome dela deveria ser US(shouldShow...) PT(deveMostrar...). 
+ - Biblioteca sonner ela serve para gerar aqueles alertas que aparecem na tela quando algo da certo ou errado para instalar 'npm install sonner'.
