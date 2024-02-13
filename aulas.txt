@@ -13,3 +13,6 @@
  - Dica de Clean Code, toda variável `booleana deve responder uma pergunta, exemplo: criamos uma variável que o objetivo dela é mostrar algo na tela portanto
  o nome dela deveria ser US(shouldShow...) PT(deveMostrar...). 
  - Biblioteca sonner ela serve para gerar aqueles alertas que aparecem na tela quando algo da certo ou errado para instalar 'npm install sonner'.
+ - Instalar um pacote como dependência de desenvolvimento para que o TypeScript reconheça a Speech Recognition API 'npm install -D @types/dom-speech-recognition'.
+ - Como fazer uma aplicação ficar responsiva com tailwindcss exemplo: 'px-5 md:px-0' site 'tailwindcss responsive desing'
+ - md:px-0 = quando a tela tiver no mínimo 768px ele tira o padding caso contrário ele deixa o paddin em 20px
